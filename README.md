@@ -1,45 +1,36 @@
-# Todo App
+# SCREENSHOT_REMINDER
 
-A basic Todo App, built using Flutter (BLoC architecture and Hive Database).
-It contains the following features : 
-### 1. Adding a Todo (with date and description)
-### 2. Viewing any day's Todos (selecting the date on an interactive calendar)
-### 3. Deleting a todo
-### 4. Updating the description of a todo
-### 5. Marking/Unmarking a todo as completed
+# How to Use 
+
+## Step 1: 
+Download or clone this repo by using the link below: https://github.com/rashmiths/RASHMITH_IRIS_2020.git 
+
+## Step 2: 
+Go to project root and execute the following command in console to get the required dependencies:
+flutter pub get 
+
+## Step 3: 
+Run the Project
 
 
-## Getting Started
-1. Clone this repo to your machine.
-2. Run the app on the Android Studio emulator or an Android Device.
-3. Choose the 'Add Todo' button to add a Todo (date and description). The todo is set as incomplete by default.
-4. Select the date whose todos you want to view/change on the calendar.
-5. The list of todos for the particular date is displayed, along with options to Complete it (checkbox), Delete it (Bin icon) and Update it (Pencil Icon).
-6. Notifications for all todos will be displayed on the respective date at 9:00 AM (This can be customised in the source code).
-7. You are allowed to add todos for all days from the present day to 30 days later. (Can be customised too)
+# Features:
 
-## Images
-### 1. Entering the description
-<img src="images/1.Enter%20Description.jpg" width="300" height="500"/>
+Local Notification
 
-### 2. Picking the date
-<img src="images/2.Picking%20date.jpg" width="300" height="500"/>
+Theme 
 
-### 3. Displaying the todos
-<img src="images/3.Displaying%20todos.jpg" width="300" height="500"/>
+different fontStyle
 
-### 4. Displaying multiple todos
-<img src="images/4.Multiple%20todos.jpg" width="300" height="500"/>
+TableCalender 
 
-### 5. After deleting the first todo
-<img src="images/5.After%20deleting%20todo%20check%201.jpg" width="300" height="500"/>
+Time And DatePicker 
 
-### 6. Updating todo check 2
-<img src="images/6.Updating%20todo%20check2.jpg" width="300" height="500"/>
+Photo Selection From Gallery
 
-### 7. Updated todo
-<img src="images/7.Updated%20tod.jpg" width="300" height="500"/>
+Hive Database Bloc
 
-### GIF of All functions
-![](/gif/GIF.gif)
+Validation 
 
+notification list added is sorted 
+
+searching for a particular date:even though there is a chance of searching for a date only the list gets updated the table calender remains same making it easy to return to today's List adding deleting editing completing a TODO 
