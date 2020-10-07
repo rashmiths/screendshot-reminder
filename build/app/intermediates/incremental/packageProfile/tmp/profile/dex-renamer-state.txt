@@ -1,0 +1,4 @@
+#Fri Aug 07 14:06:20 IST 2020
+base.0=/home/rashmith/Documents/FLUTTER PROJECTS/IRISFLUTTER/screenShot_ORIGINAL (copy)Preference/ss_REMINDER/build/app/intermediates/dex/profile/mergeDexProfile/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
